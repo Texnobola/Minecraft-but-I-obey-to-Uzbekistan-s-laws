@@ -162,6 +162,19 @@
           "src/main/java/net/mcreator/qoidalar/item/KadastrHujjatiItem.java"
         ]
       }
+    },
+    {
+      "name": "KadastrNazorati",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kadastr_nazorati",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/qoidalar/procedures/KadastrNazoratiProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
