@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.qoidalar.item.LitsenziyaItem;
 import net.mcreator.qoidalar.item.KadastrHujjatiItem;
+import net.mcreator.qoidalar.item.DiplomItem;
 import net.mcreator.qoidalar.QoidalarMod;
 
 public class QoidalarModItems {
@@ -19,10 +20,12 @@ public class QoidalarModItems {
 	public static final RegistryObject<Item> RAIS_SPAWN_EGG;
 	public static final RegistryObject<Item> LITSENZIYA;
 	public static final RegistryObject<Item> KADASTR_HUJJATI;
+	public static final RegistryObject<Item> DIPLOM;
 	static {
 		RAIS_SPAWN_EGG = REGISTRY.register("rais_spawn_egg", () -> new ForgeSpawnEggItem(QoidalarModEntities.RAIS, -16777216, -1, new Item.Properties()));
 		LITSENZIYA = REGISTRY.register("litsenziya", LitsenziyaItem::new);
 		KADASTR_HUJJATI = REGISTRY.register("kadastr_hujjati", KadastrHujjatiItem::new);
+		DIPLOM = REGISTRY.register("diplom", DiplomItem::new);
 	}
 	// Start of user code block custom items
 	// End of user code block custom items

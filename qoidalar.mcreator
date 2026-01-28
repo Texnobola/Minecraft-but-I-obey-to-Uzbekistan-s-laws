@@ -175,6 +175,32 @@
           "src/main/java/net/mcreator/qoidalar/procedures/KadastrNazoratiProcedure.java"
         ]
       }
+    },
+    {
+      "name": "Diplom",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diplom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/qoidalar/item/DiplomItem.java",
+          "src/main/resources/assets/qoidalar/models/item/diplom.json"
+        ]
+      }
+    },
+    {
+      "name": "DiplomNazorati",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diplom_nazorati",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/qoidalar/procedures/DiplomNazoratiProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -186,7 +212,8 @@
       "item.qoidalar.rais_spawn_egg": "Otam Spawn Egg",
       "entity.qoidalar.rais": "Otam",
       "item.qoidalar.litsenziya": "Litsenziya",
-      "item.qoidalar.kadastr_hujjati": "Kadastr Hujjati"
+      "item.qoidalar.kadastr_hujjati": "Kadastr Hujjati",
+      "item.qoidalar.diplom": "Diplom"
     }
   },
   "metadata": {
