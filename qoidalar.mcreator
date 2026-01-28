@@ -201,6 +201,18 @@
           "src/main/java/net/mcreator/qoidalar/procedures/DiplomNazoratiProcedure.java"
         ]
       }
+    },
+    {
+      "name": "Diplomretsepti",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diplomretsepti",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qoidalar/recipes/diplomretsepti.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
