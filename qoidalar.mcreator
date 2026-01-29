@@ -213,6 +213,96 @@
           "src/main/resources/data/qoidalar/recipes/diplomretsepti.json"
         ]
       }
+    },
+    {
+      "name": "Pasport",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pasport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/qoidalar/item/PasportItem.java",
+          "src/main/resources/assets/qoidalar/models/item/pasport.json"
+        ]
+      }
+    },
+    {
+      "name": "PropiskaNazorati",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "propiska_nazorati",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/qoidalar/procedures/PropiskaNazoratiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Pasportretsepti",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pasportretsepti",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qoidalar/recipes/pasportretsepti.json"
+        ]
+      }
+    },
+    {
+      "name": "SoliqNazorati",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "soliq_nazorati",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/qoidalar/procedures/SoliqNazoratiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "StarterPack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starter_pack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qoidalar/models/item/starter_pack.json",
+          "src/main/java/net/mcreator/qoidalar/item/StarterPackItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StarterPackOchish",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "starter_pack_ochish",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/qoidalar/procedures/StarterPackOchishProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "StarterPackBerish",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "starter_pack_berish",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/qoidalar/procedures/StarterPackBerishProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -225,7 +315,9 @@
       "entity.qoidalar.rais": "Otam",
       "item.qoidalar.litsenziya": "Litsenziya",
       "item.qoidalar.kadastr_hujjati": "Kadastr Hujjati",
-      "item.qoidalar.diplom": "Diplom"
+      "item.qoidalar.diplom": "Diplom",
+      "item.qoidalar.pasport": "Pasport",
+      "item.qoidalar.starter_pack": "Starter Pack"
     }
   },
   "metadata": {

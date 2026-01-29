@@ -27,6 +27,7 @@ public class QoidalarModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(QoidalarModItems.KADASTR_HUJJATI.get());
 			tabData.accept(QoidalarModItems.DIPLOM.get());
+			tabData.accept(QoidalarModItems.PASPORT.get());
 		}
 	}
 }

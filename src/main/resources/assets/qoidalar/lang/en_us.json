@@ -3,5 +3,7 @@
   "entity.qoidalar.rais": "Otam",
   "item.qoidalar.litsenziya": "Litsenziya",
   "item.qoidalar.kadastr_hujjati": "Kadastr Hujjati",
-  "item.qoidalar.diplom": "Diplom"
+  "item.qoidalar.diplom": "Diplom",
+  "item.qoidalar.pasport": "Pasport",
+  "item.qoidalar.starter_pack": "Starter Pack"
 }
